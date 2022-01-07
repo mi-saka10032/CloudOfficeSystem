@@ -1,0 +1,38 @@
+{
+  "name": "cloudapi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "debug": "~2.6.8",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-promise": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.0.0",
+    "koa-onerror": "^3.1.0",
+    "koa-router": "^7.2.1",
+    "koa-session": "^6.2.0",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "koa2-cors": "^2.0.6",
+    "koa2-swagger-ui": "^5.2.1",
+    "mysql2": "^2.3.2",
+    "nunjucks": "~3.0.0",
+    "os": "^0.1.2",
+    "sequelize": "^6.7.0",
+    "socket.io": "^4.3.1",
+    "svg-captcha": "^1.4.0",
+    "swagger-jsdoc": "^6.1.0",
+    "ws": "^8.2.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.1.1",
+    "eslint": "3.18.0"
+  }
+}
